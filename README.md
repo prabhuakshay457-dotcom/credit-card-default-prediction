@@ -65,3 +65,22 @@ Deliverable 2 will explore training-only cross-validation, regularization, class
 Akshay: framing, validation, numeric preprocessing, model implementation, and report sections.
 Satya: source review, exploratory analysis, categorical preprocessing, evaluation, and report sections.
 Each member has 50% of planned effort and reciprocal review responsibilities. This allocation does not assert a completed review history.
+
+## Deliverable 2
+
+Notebook: `Credit_Card_Default_Deliverable_2.ipynb`
+
+[Open the updated Colab notebook](https://colab.research.google.com/drive/1mic-cPP1ccZy7Ukz52NxJWH6qqIV34RE)
+
+### Model improvements
+- Tested regularization and class weighting using five-fold cross-validation.
+- Selected a classification threshold using validation data.
+- Compared initial and final performance on the same historical test set.
+- Added a descriptive subgroup audit and bootstrap uncertainty analysis.
+
+### Results
+Default recall increased from 34.89% to 62.55%.
+Precision decreased from 65.77% to 41.81%, reflecting more false alerts.
+The selected threshold was 0.18.
+
+The model requires further validation before practical use.
